@@ -1,0 +1,8 @@
+megs: 32
+romimage: file=/opt/homebrew/share/bochs/BIOS-bochs-latest, address=0xfffe0000
+vgaromimage: file=/opt/homebrew/share/bochs/VGABIOS-lgpl-latest
+floppya: 1_44=boot.com, status=inserted
+boot: a
+log: bochsout.txt
+mouse: enabled=0
+display_library: sdl2
